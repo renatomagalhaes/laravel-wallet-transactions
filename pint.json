@@ -1,0 +1,7 @@
+{
+    "exclude": [
+        ".docker",
+        ".git",
+        ".idea"
+    ]
+}
