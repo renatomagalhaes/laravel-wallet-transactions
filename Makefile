@@ -21,6 +21,10 @@ ps:
 test:
 	$(EXEC) vendor/bin/phpunit
 
+# Executa o teste do PHP Code Sniffer Fixer
+cs:
+	$(EXEC) vendor/bin/pint --test
+
 # Instala as dependências do Composer
 composer-install:
 	$(EXEC) composer install
