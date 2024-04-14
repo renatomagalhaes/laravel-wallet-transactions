@@ -37,8 +37,8 @@ composer-update:
 key-generate:
 	$(EXEC) php artisan key:generate
 
-# Executa comandos do Artisan (ex: make artisan cmd=migrate)
-artisan:
+# Executa comandos do Artisan (ex: make art cmd=migrate)
+art:
 	$(EXEC) php artisan $(cmd)
 
 # Executa comandos do Tinker
